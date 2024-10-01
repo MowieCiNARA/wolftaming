@@ -1,0 +1,62 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/elements/0/children/0/children/0/children/0/children/0/children/0/attachmentpoints",
+        "value": [
+            {
+                "code": "HeadAP",
+               "posX": "0.0","posY": "0.0","posZ": "0.0",
+                "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+            }
+        ],
+        "file": "game:shapes/entity/land/wolf-adult.json"
+    },
+    {
+        "op": "addmerge",
+        "path": "/elements/0/children/0/children/0/children/0/children/0/attachmentpoints",
+        "value": [
+            {
+                "code": "NeckAP",
+               "posX": "0.0","posY": "0.0","posZ": "0.0",
+                "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+            }
+        ],
+        "file": "game:shapes/entity/land/wolf-adult.json"
+    },
+    {
+        "op": "addmerge",
+        "path": "/elements/0/children/0/children/0/children/0/children/1/attachmentpoints",
+        "value": [
+            {
+                "code": "FrontMidAP",
+               "posX": "0.0","posY": "0.0","posZ": "0.0",
+                "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+            }
+        ],
+        "file": "game:shapes/entity/land/wolf-adult.json"
+    },
+    {
+        "op": "addmerge",
+        "path": "/elements/0/children/0/children/0/children/0/children/2/attachmentpoints",
+        "value": [
+            {
+                "code": "FrontMidAP",
+               "posX": "0.0","posY": "0.0","posZ": "0.0",
+                "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+            }
+        ],
+        "file": "game:shapes/entity/land/wolf-adult.json"
+    },
+    {
+        "op": "addmerge",
+        "path": "/elements/0/children/0/attachmentpoints",
+        "value": [
+            {
+                "code": "BackMidAP",
+               "posX": "0.0","posY": "0.0","posZ": "0.0",
+                "rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+            }
+        ],
+        "file": "game:shapes/entity/land/wolf-adult.json"
+    }
+]

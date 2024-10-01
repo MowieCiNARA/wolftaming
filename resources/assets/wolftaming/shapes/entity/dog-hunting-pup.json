@@ -8,7 +8,6 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"skin": "entity/dog-hunting-pup"
 	},
 	"elements": [
 		{
@@ -99,12 +98,8 @@
 									"attachmentpoints": [
 										{
 											"code": "LeftHand",
-											"posX": "0.51",
-											"posY": "0.01",
-											"posZ": "2.51",
-											"rotationX": "0.0",
-											"rotationY": "90.0",
-											"rotationZ": "0.0"
+											"posX": "0.51","posY": "0.01","posZ": "2.51",
+											"rotationX": "0.0","rotationY": "90.0","rotationZ": "0.0"
 										}
 									]
 								},
@@ -169,6 +164,11 @@
 						{
 							"code": "rope",
 							"posX": "1.0","posY": "2.0","posZ": "1.5",
+							"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+						},
+						{
+							"code": "NeckAP",
+							"posX": "0.0","posY": "0.0","posZ": "0.0",
 							"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
 						}
 					]

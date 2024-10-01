@@ -1,5 +1,6 @@
 {
 	"editor": {
+		"collapsedPaths": "Root/Body/neck/head/right ear,Root/Body/neck/head/left ear",
 		"allAngles": true,
 		"entityTextureMode": true
 	},
@@ -8,7 +9,6 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"skin": "entity/dog-shepherd-1"
 	},
 	"elements": [
 		{
@@ -92,7 +92,7 @@
 										{
 											"code": "LeftHand",
 											"posX": "2.0","posY": "0.0","posZ": "4.5",
-											"rotationX": "-0.0","rotationY": "90.0","rotationZ": "0.0"
+											"rotationX": "0.0","rotationY": "90.0","rotationZ": "0.0"
 										}
 									]
 								},
@@ -226,6 +226,13 @@
 										}
 									]
 								}
+							],
+							"attachmentpoints": [
+								{
+									"code": "HeadAP",
+									"posX": "0.0","posY": "0.0","posZ": "0.0",
+									"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+								}
 							]
 						}
 					],
@@ -233,6 +240,11 @@
 						{
 							"code": "rope",
 							"posX": "3.0","posY": "5.0","posZ": "3.0",
+							"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+						},
+						{
+							"code": "NeckAP",
+							"posX": "0.0","posY": "0.0","posZ": "0.0",
 							"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
 						}
 					]
@@ -351,6 +363,54 @@
 										"up": { "texture": "#skin", "uv": [ 53.0, 33.0, 55.75, 35.75 ] },
 										"down": { "texture": "#skin", "uv": [ 55.75, 33.0, 58.5, 35.75 ] }
 									}
+								}
+							]
+						},
+						{
+							"name": "Armor",
+							"from": [ 4.0, 3.0, -1.0 ],
+							"to": [ 13.0, 7.0, 7.0 ],
+							"uv": [ 0.0, 0.0 ],
+							"rotationOrigin": [ 4.0, 1.0, -1.0 ],
+							"faces": {
+							},
+							"attachmentpoints": [
+								{
+									"code": "BackMidAP",
+									"posX": "0.0","posY": "0.0","posZ": "0.0",
+									"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+								}
+							]
+						},
+						{
+							"name": "Backpack",
+							"from": [ -5.0, -1.0, -1.0 ],
+							"to": [ 4.0, 5.0, 7.0 ],
+							"uv": [ 0.0, 0.0 ],
+							"rotationOrigin": [ -5.0, -1.0, -1.0 ],
+							"faces": {
+							},
+							"attachmentpoints": [
+								{
+									"code": "FrontMidAP",
+									"posX": "0.0","posY": "0.0","posZ": "-2.0",
+									"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+								}
+							]
+						},
+						{
+							"name": "Ride",
+							"from": [ 4.0, -3.0, -1.0 ],
+							"to": [ 13.0, 3.0, 7.0 ],
+							"uv": [ 0.0, 0.0 ],
+							"rotationOrigin": [ -5.0, -3.0, -1.0 ],
+							"faces": {
+							},
+							"attachmentpoints": [
+								{
+									"code": "RideAP",
+									"posX": "0.0","posY": "0.0","posZ": "0.0",
+									"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
 								}
 							]
 						}
